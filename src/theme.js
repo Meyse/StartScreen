@@ -120,7 +120,8 @@ theme.overrides = {
       backgroundColor: "#EEEEEE",
       border: "1px solid #9F9F9F",
       borderRadius: 5,
-      padding: theme.spacing(1),
+      paddingTop: "12px",
+      paddingBottom: "12px",
       "&$focused": {
         border: "1px solid #000",
         backgroundColor: "#fff"
