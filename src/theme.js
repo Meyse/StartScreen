@@ -13,9 +13,15 @@ const theme = createMuiTheme({
   typography: {
     h1: {
       fontFamily: "Source Sans Pro, sans-serif",
-      fontSize: "1.5rem",
+      fontSize: "1.7rem",
       fontWeight: "600",
-      lineHeight: "2rem"
+      lineHeight: "2.2rem"
+    },
+    h2: {
+      fontFamily: "Source Sans Pro, sans-serif",
+      fontSize: "1.3rem",
+      fontWeight: "600",
+      lineHeight: "1.7rem"
     },
     body1: {
       fontFamily: "Source Sans Pro, sans-serif",
@@ -25,9 +31,9 @@ const theme = createMuiTheme({
     },
     subtitle1: {
       fontFamily: "Source Sans Pro, sans-serif",
-      fontSize: "0.88rem",
+      fontSize: "0.8rem",
       fontWeight: "400",
-      lineHeight: "1.3rem"
+      lineHeight: "1.2rem"
     }
   }
 });
@@ -97,7 +103,7 @@ theme.overrides = {
       }
     },
     containedSizeLarge: {
-      fontSize: "18px",
+      fontSize: "1rem",
       paddingTop: "12px",
       paddingBottom: "12px"
     },
@@ -116,6 +122,7 @@ theme.overrides = {
     root: {
       paddingLeft: "15px",
       color: "#383838",
+      fontSize: "1rem",
       top: theme.spacing(1),
       backgroundColor: "#EEEEEE",
       border: "1px solid #9F9F9F",

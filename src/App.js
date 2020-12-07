@@ -78,7 +78,7 @@ export default function App() {
             textAlign="left"
           >
             <Typography
-              variant="h1"
+              variant="h2"
               style={{
                 color: "#272727",
                 paddingLeft: "45px",
@@ -131,7 +131,7 @@ export default function App() {
                 color: "#000",
                 opacity: "0.83",
                 paddingLeft: "45px",
-                paddingTop: "80px",
+                paddingTop: "90px",
                 maxWidth: "250px"
               }}
             >
