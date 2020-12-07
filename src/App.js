@@ -51,7 +51,7 @@ export default function App() {
                 color: "#fff",
                 paddingLeft: "45px",
                 paddingRight: "45px",
-                paddingTop: "120px",
+                paddingTop: "140px",
                 paddingBottom: "20px"
               }}
             >
@@ -77,24 +77,13 @@ export default function App() {
             zIndex="tooltip"
             textAlign="left"
           >
-            <Typography
-              variant="h2"
-              style={{
-                color: "#272727",
-                paddingLeft: "45px",
-                paddingRight: "45px",
-                paddingTop: "120px",
-                paddingBottom: "20px"
-              }}
-            >
-              Select profile and login
-            </Typography>
             <TextField
               size="small"
               placeholder="Select my profile"
               style={{
                 width: "310px",
                 paddingLeft: "45px",
+                marginTop: "140px",
                 paddingRight: "45px",
                 marginBottom: "26px"
               }}
@@ -131,7 +120,7 @@ export default function App() {
                 color: "#000",
                 opacity: "0.83",
                 paddingLeft: "45px",
-                paddingTop: "90px",
+                paddingTop: "120px",
                 maxWidth: "250px"
               }}
             >
